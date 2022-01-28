@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seikkailupeli oma versio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="container-inner">
+            <img src="" alt="">
+            <div class="modal" id = "modalMessage">                
+                <span class="closebtn"  onclick = "this.parentElement.style.display='none';render();">&times;</span>
+                <p class= "outputMsg" id="message"></p>
+            </div>
+            <p id="output"></p>
+            
+            <div class="arrows">
+            <!-- <input type="text" name="input" id="input" placeholder="Mitä haluat tehdä?"> -->
+            <img src="images/nuoli.png" alt="north"  class="arrow" id="N">
+            <button id="north">N</button>
+            <img src="images/nuoli.png" alt="east" class= "arrow" id="E">
+            <button id="east">E</button>
+            <img src="images/nuoli.png" alt="south" class="arrow" id="S">
+            <button id="south">S</button>
+            <img src="images/nuoli.png" alt="west" class="arrow" id="W">
+            <button id="west">W</button>
+            </div>
+         </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
