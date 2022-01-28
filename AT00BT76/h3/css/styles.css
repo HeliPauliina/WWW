@@ -1,0 +1,167 @@
+body{
+    font: 100% "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    background: #7f98c3;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000
+}
+p{
+    font-size: 85%;
+}
+
+h1, h2, h3, h4 {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: normal;
+color: #628958;
+letter-spacing: -0.04em;
+}
+    
+#wrapper {
+    width: 700px;
+    margin: 0 auto 15px auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-bottom: 10px;
+    background: url("../images/page_bottom.jpg") no-repeat bottom center;
+}
+#container {
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 700px;
+    background: white url(../images/body_back.jpg) repeat-y top left;
+    /* margin: 0 auto; turha kun on wrapperin marginit, 
+    samoin siirrettiin position absolute */
+    padding: 0 9px;
+    text-align: left;
+}
+
+
+#container .overhang {
+    position: absolute;
+    top: 0;
+    left: -65px;
+}
+#container #footer .overhang {
+    background: url("../images/sm_flower.png") no-repeat;
+    height: 100px;
+    width: 84px;
+    left: 620px;
+    top: 10px;
+    /* position absolute kertautuu edellisestä overhangista ja 
+    left ja top ylikirjoitetaan */
+}
+
+#header {
+    background: white;
+    padding: 40px 0 20px 150px;
+}
+
+a img {
+    border: none;
+}
+
+a:link{
+    color: #628958;
+}
+a:visited{
+    color: #666666;
+}
+
+a:hover a:active a:focus{
+    color: #CE5441;
+    text-decoration: none;
+}
+
+#sidebar1 {
+    float: right;
+    width: 184px;
+    background: url(../images/corner_tl.gif) no-repeat;
+    padding: 15px 20px;
+}
+
+#sidebar1 a{
+    font-weight: bold;
+}
+
+#mainContent {
+    margin: 0 250px 0 0;
+    padding: 32px 20px 40px 20px;
+    
+}
+
+#mainContent h1{
+    font-size: 180%;
+    text-align: right;
+    margin-right: 20px;
+}
+#mainContent h2 {
+    font-size: 150%;
+    margin-top: 35px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+h3 {
+    font-size: 130%;
+}
+.firstletter {
+    color: #628958;
+    float: left;
+    font-family: Georgia;
+    font-size: 75px;
+    line-height: 50px;
+    padding: 4px 8px 0 0;
+}
+
+.pod {
+    border: solid 1px #628958;
+    padding: 10px 5px 0 15px;
+    float: left;
+}
+
+#footer {
+    position: relative;
+    padding: 70px 0 30px 20px;
+    background: white url("../images/corner_br.jpg") no-repeat right top;
+}
+
+#footer p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.fltrt {
+    float: right;
+    margin-left: 8px;
+}
+.fltlft {
+    /* this class can be used to float an element left in your page */
+    float: left;
+    margin-right: 8px;
+}
+.clearfloat {
+    /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+    clear: both;
+    height: 0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

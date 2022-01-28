@@ -1,0 +1,68 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #88f7e8;
+    margin:0;
+    padding:0;
+}
+main {
+    width: 400px;
+    height: 350px;
+    border: 1px solid transparent;
+    margin: auto;
+    margin-top: 200px;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+
+}
+
+p, h1{
+    font: black;
+    font-weight: bold;
+    text-align: center; 
+    margin-top: 30px;
+    font-size: 18px; 
+}
+h1{
+    letter-spacing: 3px;
+    font-size: 35px;
+    text-decoration: underline teal;
+    text-shadow: 2px 2px 5px lightslategrey;
+}
+
+#input{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+    display: inline;
+    margin-left: 125px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#button {
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background: teal;
+    margin-left: 150px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 12px;
+
+}
+
+#button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+a:link, a:visited {
+    color: teal;
+}
+
+a:hover, a:active {
+    color: #88f7e8;
+}

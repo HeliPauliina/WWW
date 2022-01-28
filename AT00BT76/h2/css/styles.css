@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 780px;
+    margin: 0 auto; /* sama kuin 0 auto 0 auto - ylä,oikea,ala,vasen*/
+
+}
+header {
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+header h1 {
+    color: whitesmoke;
+}
+aside {
+    width: 220px;
+    float: left;
+}
+main {
+    margin: 0 0 0 240px;
+}
+footer {
+    background-color: teal;
+    padding: 10px;
+
+}
+footer p {
+    color: whitesmoke;
+}
+
+.clearfloat {
+    clear: both;
+
+}
+/* luokkamäärittely */

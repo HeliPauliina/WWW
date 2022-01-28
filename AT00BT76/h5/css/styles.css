@@ -1,0 +1,185 @@
+@charset "utf-8";
+body  {
+	font: 100% Georgia, "Times New Roman", Times, serif;
+	background: #1b1a52;
+	margin: 0; 
+	padding: 0;
+	color: #000000;
+}
+#container { 
+	font-size: 80%;
+	width: 100%;
+	text-align: left;
+} 
+#header { 
+	background: #ffffff url("../images/logo_background.gif") no-repeat top right; 
+	padding: 0;
+	border-bottom: 1px solid #9290bf;	 
+} 
+#header h1 {
+	position: absolute;
+	left: -10000px;
+}
+/* sijoitus näkyvyyden ulkopuolella 
+mutta hakukoneelle ja ääniselaimelle näkyy koska h1
+ on merkittävä */
+
+#header img {
+	margin: 30px 0 30px 40px;
+}
+a img {
+	border: none;
+}
+
+#header ul {
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-image: linear-gradient(#ffd500,#ffad00);
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #575691;
+}
+
+#header li {
+	font-size: 110%;
+	float: left;
+}
+#header li#living {
+	padding-left: 28px;
+}
+
+#header li a {
+	float: left;
+	display: block;
+	padding: 8px 12px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;	
+}
+
+#header li a:hover, #header li a:active, #header li a:focus {
+	color: #1b1a52;
+	text-decoration: underline;
+}
+
+.living #living a, .business #business a, .chamber #chamber a {
+	color: #1b1a52;
+}
+
+#mainWrap {
+	background: #403e8a url("../images/main_back.jpg") repeat-x;
+	border-bottom: 10px solid #36357d;
+}
+
+#sidebar1 {
+	float: left;
+	width: 22%; 	
+	padding: 15px 0;
+	background: url("../images/side1_back.jpg") no-repeat right top;
+	min-height: 200px;
+
+}
+#sidebar2 {
+	float: right; 
+	width: 23%; 	
+	padding: 15px 0;
+	background: url("../images/side2_back.jpg") no-repeat right top;
+	min-height: 145px; 
+}
+
+#sidebar1 ul{
+	font-size: 105%;
+	margin: 15px 30px 0 0;
+	padding: 0;
+	list-style: none;
+}
+#sidebar1 li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding: 5px 0 5px 40px;
+}
+
+#sidebar1 li a:hover, #sidebar1 li a:active, #sidebar1 li a:focus {
+	color: #ffad00;
+}
+
+.visiting #visiting {
+	background: url("../images/arrow.gif") no-repeat left center;
+
+}
+
+#sidebar2 p, #sidebar2 h3{
+	margin-left: 10px;
+	margin-right: 30px;
+}
+
+#mainContent {
+	padding-top: 10px; 
+	margin: 0 24% 0 23.5%;
+	background: url("../images/content_back.jpg") no-repeat right top;
+	min-height: 200px;
+	padding-right: 80px;
+}
+
+#footer { 
+	padding: 0 30px 0 40px;
+	border-top: 10px solid #2d2d70;
+	
+} 
+#footer p {
+	margin: 0;
+	padding: 10px 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #5c5a99;
+	width: 59%;
+}
+#footer ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 39%;
+	list-style: none;
+}
+
+#footer li {
+	float: right;
+}
+#footer li a {
+	display: block;
+	padding: 10px;
+	color: #5c5a99;
+	text-decoration: none;
+}
+
+#footer li a:hover, #footer li a:active, #footer li a:focus {
+	color: #ffad00;
+}
+
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	color:white;
+}
+
+h1, h2, h3, h4 {
+	color: #ffad00;
+	font-weight: normal;
+}
